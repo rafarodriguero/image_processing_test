@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: teste-image-processing
+Version: 0.0.1
+Summary: Image Processing Package using skimage
+Home-page: https://github.com/rafarodriguero/image_processing_test
+Author: Rafael Souza
+Author-email: rafaelrodriguero@msn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# teste_image_processing
+DescriÃ§Ã£o:
+RepositÃ³rio para estudo de criaÃ§Ã£o de package com dois modulos:
+
+    Processing:
+        - Histogram matching
+        - Structural similarity
+        - Resize image
+
+    Utils:
+        - Read image
+        - Save image
+        - Plot image
+        - Plot result
+        - Plot histogram
+
+## Installation
+
+Use o gerenciado de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar o pacote Image Processing
+
+
+'''bash
+pip install teste_image_processing
+'''
+
+## Usage
+'''bash
+from teste_image_processing.processing import combination, transformation
+'''
+
+## Author
+Rafael Souza
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
