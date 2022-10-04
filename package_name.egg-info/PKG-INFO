@@ -1,6 +1,18 @@
+Metadata-Version: 2.1
+Name: package-name
+Version: 0.0.1
+Summary: Image Processing Package using skimage
+Home-page: https://github.com/rafarodriguero/image_processing_test
+Author: Rafael Souza
+Author-email: rafaelrodriguero@msn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
 # image_processing_test
-Descrição:
-Repositório para estudo de criação de package com dois modulos:
+DescriÃ§Ã£o:
+RepositÃ³rio para estudo de criaÃ§Ã£o de package com dois modulos:
 
     Processing:
         - Histogram matching
@@ -33,4 +45,6 @@ Rafael Souza
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
 
