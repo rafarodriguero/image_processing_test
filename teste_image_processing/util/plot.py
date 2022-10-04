@@ -8,7 +8,7 @@ def plot_image(image):
 
 def plot_result(*args):
     number_images = len(args)
-    fig, axis = plt.subplot(nrows=1, ncols=number_images, figsize=(12,4))
+    fig, axis = plt.subplots(nrows=1, ncols=number_images, figsize=(12,4))
     names_lst = ['image {}'.format(i) for i in range(1, number_images)]
     names_lst.append('Result')
     for ax, name, image in zip(axis, names_lst, args):
