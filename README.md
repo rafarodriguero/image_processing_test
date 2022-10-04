@@ -1,4 +1,4 @@
-# image_processing_test
+# teste_image_processing
 Descrição:
 Repositório para estudo de criação de package com dois modulos:
 
@@ -20,12 +20,12 @@ Use o gerenciado de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar 
 
 
 '''bash
-pip install image_processing
+pip install teste_image_processing
 '''
 
 ## Usage
 '''bash
-from image_processing.processing.combination import find_difference
+from teste_image_processing.processing import combination, transformation
 '''
 
 ## Author
